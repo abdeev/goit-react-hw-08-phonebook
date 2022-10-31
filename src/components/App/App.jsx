@@ -5,7 +5,7 @@ import RegisterPage from 'pages/RegisterPage';
 import LoginPage from 'pages/LoginPage';
 import ContactsPage from 'pages/ContactsPage';
 import LayoutPage from 'pages/LayoutPage';
-import PrivateRoute from 'components/PrivateRoute/PrivateRoute';
+import PrivateRoute from 'routes/PrivateRoute/PrivateRoute';
 import { useDispatch } from 'react-redux';
 import { currentThunk } from 'redux/auth/authThunk';
 
